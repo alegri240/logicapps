@@ -9,8 +9,7 @@ variables:
 resources:
   pipelines:
   - pipeline: cipipeline
-    # TODO: Update with the name of your CI pipeline
-    source: ''
+    source: 'alegri240.logicapps.CI'
     trigger:
       branches:
       - main
