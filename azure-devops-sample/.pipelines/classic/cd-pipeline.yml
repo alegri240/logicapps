@@ -9,7 +9,7 @@ variables:
 resources:
   pipelines:
   - pipeline: cipipeline
-    source: 'alegri240.logicapps.CI'
+    source: 'alegri240.logicapps.CI.2'
     trigger:
       branches:
       - main
